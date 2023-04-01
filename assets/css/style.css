@@ -3836,9 +3836,9 @@ iframe {
     color: #F8F2F9;
 
     display: inline-block;
-    -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg); /* поворачиваем текст на 90 градусов по часовой стрелке */
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg); /* поворачиваем текст на 90 градусов по часовой стрелке */
     -webkit-transform-origin: top left;
         -ms-transform-origin: top left;
             transform-origin: top left; /* устанавливаем точку вращения в верхний левый угол */
