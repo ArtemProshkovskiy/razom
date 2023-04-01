@@ -1068,7 +1068,7 @@ iframe {
 
 }
 
-.phase strong {
+.phase p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -3827,6 +3827,7 @@ iframe {
       padding-top: 85px;
     padding-left: 57px;
     padding-right: 57px;
+    display: flex;
 }
 .phase span {
     font-family: 'Poppins';
@@ -3846,7 +3847,7 @@ iframe {
     text-size-adjust: none;
 }
 
-.phase strong {
+.phase p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -5266,14 +5267,15 @@ iframe {
     }
 
     .roadmap.phone .phase {
-        font-size: 18px;
+        padding: 146px 30px 0 30px;
+    }
+.roadmap.phone .phase span {
+    font-size: 18px;
         line-height: 27px;
 
-        padding: 146px 30px 0 30px;
         letter-spacing: -11px;
          -webkit-letter-spacing: -11px;
-    }
-
+}
     .roadmap__content__block-item div img {
         max-width: 35px;
         max-height: 35px;
@@ -5338,7 +5340,7 @@ iframe {
         color: #F8F2F9;
     }
 
-    .phase strong {
+    .phase p {
         font-size: 18px;
         line-height: 27px;
         margin-top: 34px;
