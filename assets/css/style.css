@@ -3847,6 +3847,8 @@ iframe {
     padding-top: 85px;
     padding-left: 57px;
     padding-right: 57px;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 }
 
 .phase strong {
