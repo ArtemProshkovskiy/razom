@@ -1276,7 +1276,7 @@ iframe {
     .swiper-button-next.team:after {
         top: 0px;
         left: 115px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 35px;
         height: 45px;
         background-size: contain;
@@ -1285,7 +1285,7 @@ iframe {
     .swiper-button-prev.team:after {
         top: 0;
         right: 115px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 35px;
         height: 45px;
         background-size: contain;
@@ -1637,8 +1637,16 @@ iframe {
     }
 
 
-    .features__content-block:nth-child(1) {
-        padding-top: 50px;
+    .features__content-block {
+        padding-top: 55px;
+    }
+
+    .features__content-block_hover:last-child .features__content-block{
+        padding-top: 80px;
+    }
+
+    .features__content-block_hover:n .features__content-block{
+        padding-top: 80px;
     }
 
 
@@ -1661,7 +1669,7 @@ iframe {
     .swiper-button-next.team:after {
         top: -13px;
         left: 194px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 30px;
         height: 35px;
         background-size: contain;
@@ -1670,7 +1678,7 @@ iframe {
     .swiper-button-prev.team:after {
         top: -13px;
         right: 194px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 30px;
         height: 35px;
         background-size: contain;
@@ -2028,7 +2036,7 @@ iframe {
     .swiper-button-next.team:after {
         top: -13px;
         left: 275px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 16px;
         height: 29px;
         background-size: contain;
@@ -2037,7 +2045,7 @@ iframe {
     .swiper-button-prev.team:after {
         top: -13px;
         right: 275px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 16px;
         height: 29px;
         background-size: contain;
@@ -2355,7 +2363,7 @@ iframe {
     .swiper-button-next.team:after {
         top: -13px;
         left: 310px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 16px;
         height: 29px;
         background-size: contain;
@@ -2364,7 +2372,7 @@ iframe {
     .swiper-button-prev.team:after {
         top: -13px;
         right: 310px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 16px;
         height: 29px;
         background-size: contain;
@@ -2380,7 +2388,7 @@ iframe {
     .swiper-button-next.team:after {
         top: -13px;
         left: 345px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 16px;
         height: 29px;
         background-size: contain;
@@ -2389,7 +2397,7 @@ iframe {
     .swiper-button-prev.team:after {
         top: -13px;
         right: 345px;
-        background: url('/assets/img/team/arrow.svg') no-repeat;
+        background: url('../img/team/arrow.svg') no-repeat;
         width: 16px;
         height: 29px;
         background-size: contain;
