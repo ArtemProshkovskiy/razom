@@ -3823,8 +3823,11 @@ iframe {
     border-right: 1px solid #f8f2f9;
     height: 100%;
 }
-
 .phase {
+    display: flex;
+    flex-direction: column;
+}
+.phase span{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -3845,7 +3848,7 @@ iframe {
     padding-right: 57px;
 }
 
-.phase strong {
+.phase p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
