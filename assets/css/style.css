@@ -586,6 +586,19 @@ iframe {
 }
 
 
+    .features__content-block {
+        padding-top: 55px;
+    }
+
+    .features__content-block_hover:last-child .features__content-block{
+        padding-top: 100px;
+    }
+
+    .features__content-block_hover:nth-child(2) .features__content-block{
+        padding-top: 65px;
+    }
+
+
 /*swiper*/
 
 .teams {
@@ -758,6 +771,7 @@ iframe {
     transform: translate(0, 0);
     opacity: 1;
 }
+
 
 
 /* roademap */
@@ -1257,6 +1271,10 @@ iframe {
         width: 1020px;
     }
 
+    .features__content-block_hover:nth-child(2) .features__content-block{
+        padding-top: 90px;
+    }
+
 
     /*team*/
     .swiper.team {
@@ -1637,17 +1655,17 @@ iframe {
     }
 
 
-    .features__content-block {
-        padding-top: 55px;
-    }
-
     .features__content-block_hover:last-child .features__content-block{
         padding-top: 80px;
     }
 
-    .features__content-block_hover:n .features__content-block{
-        padding-top: 80px;
+    .features__content-block_hover:nth-child(2) .features__content-block{
+        padding-top: 60px;
     }
+
+    .features__content-block:nth-child(1) {
+    padding-top: 55px;
+}
 
 
     /*team*/
@@ -2013,6 +2031,19 @@ iframe {
     }
 
 
+        .features__content-block_hover:last-child .features__content-block{
+        padding-top: 20px;
+    }
+
+    .features__content-block_hover:nth-child(2) .features__content-block{
+        padding-top: 20px;
+    }
+
+    .features__content-block:nth-child(1) {
+    padding-top: 20px;
+}
+
+
     /*team*/
     .swiper-slide.team .swiper-slide_img img {
         width: 127px;
@@ -2024,6 +2055,7 @@ iframe {
     }
 
     .swiper.team {
+        max-width: 560px;
         height: 355px;
     }
 
