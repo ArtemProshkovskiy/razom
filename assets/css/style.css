@@ -1044,7 +1044,31 @@ iframe {
     height: 100%;
 }
 
-.phase p {
+.phase {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F8F2F9;
+
+    display: inline-block;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: -24px;
+     -webkit-letter-spacing: -24px;
+    padding-top: 85px;
+    padding-left: 57px;
+    padding-right: 57px;
+
+}
+
+.phase strong {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -2467,16 +2491,9 @@ iframe {
         font-size: 18px;
         line-height: 27px;
 
-        letter-spacing: -11px;
-         -webkit-letter-spacing: -11px;
-    }
-
-    .phase span {
-          font-size: 18px;
-        line-height: 27px;
-
         padding: 146px 30px 0 30px;
         letter-spacing: -11px;
+         -webkit-letter-spacing: -11px;
     }
 
     .roadmap__content__block-item div img {
@@ -3807,12 +3824,11 @@ iframe {
     height: 100%;
 }
 .phase {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+      padding-top: 85px;
+    padding-left: 57px;
+    padding-right: 57px;
 }
-.phase span{
+.phase span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -3824,17 +3840,13 @@ iframe {
     color: #F8F2F9;
 
     display: inline-block;
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr; /* заменяем -webkit-writing-mode и -ms-writing-mode */
     text-orientation: upright;
-    padding-top: 85px;
-    padding-left: 57px;
-    padding-right: 57px;
-     letter-spacing: -24px;
+    white-space: nowrap; /* предотвращаем перенос слов */
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 }
 
-.phase p {
+.phase strong {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -3845,7 +3857,6 @@ iframe {
 
     color: #F8F2F9;
     margin-top: 55px;
-    transform: translate(-5px, 0);
 }
 
 .roadmap__content__block-item span strong {
@@ -5257,13 +5268,10 @@ iframe {
     .roadmap.phone .phase {
         font-size: 18px;
         line-height: 27px;
-    }
 
-    .roadmap.phone .phase span {
-        font-size: 18px;
-        line-height: 27px;
         padding: 146px 30px 0 30px;
         letter-spacing: -11px;
+         -webkit-letter-spacing: -11px;
     }
 
     .roadmap__content__block-item div img {
@@ -5330,7 +5338,7 @@ iframe {
         color: #F8F2F9;
     }
 
-    .phase p {
+    .phase strong {
         font-size: 18px;
         line-height: 27px;
         margin-top: 34px;
