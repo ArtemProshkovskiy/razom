@@ -2488,10 +2488,12 @@ iframe {
     }
 
     .roadmap.phone .phase {
+        padding: 146px 30px 0 30px;
+    }
+
+    .roadmap.phone .phase  span {
         font-size: 18px;
         line-height: 27px;
-
-        padding: 146px 30px 0 30px;
         letter-spacing: -11px;
          -webkit-letter-spacing: -11px;
     }
