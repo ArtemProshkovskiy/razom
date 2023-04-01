@@ -3836,8 +3836,14 @@ iframe {
     color: #F8F2F9;
 
     display: inline-block;
-    writing-mode: vertical-lr; /* заменяем -webkit-writing-mode и -ms-writing-mode */
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg); /* поворачиваем текст на 90 градусов по часовой стрелке */
+    -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+            transform-origin: top left; /* устанавливаем точку вращения в верхний левый угол */
     text-orientation: upright;
+    white-space: nowrap; /* предотвращаем перенос слов */
     padding-top: 85px;
     padding-left: 57px;
     padding-right: 57px;
