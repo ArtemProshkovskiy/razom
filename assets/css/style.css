@@ -91,7 +91,7 @@ body {
 
 
 .header {
-    background: url("../assets/img/header/back.png") no-repeat;
+    background: url("../img/header/back.png") no-repeat;
     background-size: cover;
     width: 100%;
     height: 900px;
@@ -456,7 +456,7 @@ iframe {
 
 
 .features {
-    background: url("../assets/img/features/back.png") no-repeat;
+    background: url("../img/features/back.png") no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -684,7 +684,7 @@ iframe {
     position: absolute;
     top: -40px;
     left: 25px;
-    background: url("../assets/img/team/arrow.svg");
+    background: url("../img/team/arrow.svg");
 
     width: 38px;
     height: 66px;
@@ -695,7 +695,7 @@ iframe {
     position: absolute;
     top: -40px;
     right: 25px;
-    background: url("../assets/img/team/arrow.svg");
+    background: url("../img/team/arrow.svg");
 
     width: 38px;
     height: 66px;
@@ -757,7 +757,7 @@ iframe {
 /* roademap */
 
 .roadmap {
-    background: url("../assets/img/rodemup/back.png") no-repeat;
+    background: url("../img/rodemup/back.png") no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -814,7 +814,7 @@ iframe {
 }
 
 .roadmap__content__block {
-    background: url("../assets/img/rodemup/1.png") no-repeat;
+    background: url("../img/rodemup/1.png") no-repeat;
     width: 100%;
     height: 100%;
     position: relative;
@@ -823,11 +823,11 @@ iframe {
 }
 
 .roadmap__content__block.second {
-    background: url("../assets/img/rodemup/2.png") no-repeat;
+    background: url("../img/rodemup/2.png") no-repeat;
 }
 
 .roadmap__content__block.three {
-    background: url("../assets/img/rodemup/3.png") no-repeat;
+    background: url("../img/rodemup/3.png") no-repeat;
 }
 
 .roadmap__content__block-border {
@@ -1136,7 +1136,7 @@ iframe {
 
 .footer {
     background-size: cover;
-    background: url("../assets/img/footer/back.png");
+    background: url("../img/footer/back.png");
     height: 100%;
     width: 100%;
     padding: 100px 0;
@@ -1429,7 +1429,7 @@ iframe {
     }
 
     .burger__content-popup {
-        background: url("../assets/img/header/back.png");
+        background: url("../img/header/back.png");
         height: 100%;
         padding-top: 25px;
     }
@@ -2127,7 +2127,7 @@ line-height: 30px;
     }
 
     .roadmap.phone .roadmap__content__block {
-        background: url("../assets/img/rodemup/1_phone.png") no-repeat;
+        background: url("../img/rodemup/1_phone.png") no-repeat;
         margin-top: 50px;
         width: 270px;
         height: 100%;
