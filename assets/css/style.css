@@ -2489,6 +2489,10 @@ iframe {
 
     .roadmap.phone .phase {
         padding: 146px 30px 0 30px;
+          font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -11px;
+         -webkit-letter-spacing: -11px;
     }
 
     .roadmap.phone .phase  span {
@@ -5270,6 +5274,10 @@ iframe {
 
     .roadmap.phone .phase {
         padding: 146px 30px 0 30px;
+          font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -11px;
+         -webkit-letter-spacing: -11px;
     }
 .roadmap.phone .phase span {
     font-size: 18px;
