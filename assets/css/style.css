@@ -2487,21 +2487,6 @@ iframe {
         display: block;
     }
 
-    .roadmap.phone .phase {
-        padding: 146px 30px 0 30px;
-          font-size: 18px;
-        line-height: 27px;
-        letter-spacing: -11px;
-         -webkit-letter-spacing: -11px;
-    }
-
-    .roadmap.phone .phase  span {
-        font-size: 18px;
-        line-height: 27px;
-        letter-spacing: -11px;
-         -webkit-letter-spacing: -11px;
-    }
-
     .roadmap__content__block-item div img {
         max-width: 35px;
         max-height: 35px;
@@ -5273,7 +5258,8 @@ iframe {
     }
 
     .roadmap.phone .phase {
-        padding: 100px 30px 0 30px;
+        padding: 100px 0 0 30px;
+        margin-right: 30px;
           font-size: 18px;
         line-height: 27px;
         letter-spacing: 0;
@@ -5351,7 +5337,7 @@ iframe {
     .phase p {
         font-size: 18px;
         line-height: 27px;
-        margin-top: 34px;
+        margin-top: 45px;
     }
 
 
