@@ -2194,6 +2194,9 @@ opacity: 0.8;
     .contact__content-download div img {
         width: 120px;
     }
+    .contact__content-download div img {
+    width: 100px;
+}
 
 
     /*footer*/
