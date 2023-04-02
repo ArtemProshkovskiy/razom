@@ -1389,14 +1389,14 @@ iframe {
 
 
 .footer {
-    background-size: cover;
-    background: url("../img/footer/back.png");
+    background: url("../img/footer/back.png") no-repeat;
     height: 100%;
     width: 100%;
-    padding: 100px 0;
+    background-size: cover;
 }
 
 .footer__content {
+    padding-top: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1413,6 +1413,48 @@ iframe {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+.footer_kop {
+    padding-bottom: 30px;
+    padding-top: 88px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_kop  a {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* текст */
+
+color: #F8F2F9;
+
+opacity: 0.8;
+    margin-bottom: 12px;
+}
+
+.footer_kop span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* текст */
+
+    color: #F8F2F9;
+
+    opacity: 0.8;
 }
 
 .footer__content-block a {
@@ -2680,10 +2722,6 @@ iframe {
 
 
     /*footer*/
-    .footer {
-        padding: 25px 0 47px 0;
-    }
-
     .footer__content-block {
         margin-left: 20px;
     }
@@ -2701,15 +2739,6 @@ iframe {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-    }
-
-    .footer__content-block a:last-child {
-        margin-bottom: 22px;
-    }
-
-    .footer__content-block:last-child {
-        margin: 0 auto;
-        text-align: center;
     }
 
     .footer__content-block a {
@@ -4157,53 +4186,6 @@ iframe {
     margin-bottom: 17px;
 }
 
-/*footer*/
-
-
-.footer {
-    background-size: cover;
-    background: url("../img/footer/back.png");
-    height: 100%;
-    width: 100%;
-    padding: 100px 0;
-}
-
-.footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.footer__content-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-
-.footer__content-block a {
-    margin-bottom: 30px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-
-    /* текст */
-
-    color: #F8F2F9;
-}
-
-.footer__content-block a:last-child {
-    margin-bottom: 0;
-}
 
 
 /*media */
@@ -5427,19 +5409,19 @@ iframe {
         top: 285px;
     }
 
-     .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.first {
-          left: -33px;
-    top: -30px;
+    .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.first {
+        left: -33px;
+        top: -30px;
     }
 
-     .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.second {
-            left: 106px;
-    top: 47px;
+    .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.second {
+        left: 106px;
+        top: 47px;
     }
 
     .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.three {
-            left: -43px;
-    top: 166px;
+        left: -43px;
+        top: 166px;
     }
 
     .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.four {
@@ -5519,7 +5501,24 @@ iframe {
 
     /*footer*/
     .footer {
-        padding: 25px 0 47px 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer_kop {
+        padding-bottom: 21px;
+        padding-top: 38px;
+    }
+
+    .footer_kop a{
+        font-size: 10px;
+line-height: 15px;
+        margin-bottom: 7px;
+    }
+
+    .footer_kop span {
+        font-size: 10px;
+line-height: 15px;
     }
 
     .footer__content-block {
@@ -5539,20 +5538,22 @@ iframe {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        padding-top: 40px;
     }
 
     .footer__content-block a:last-child {
-        margin-bottom: 22px;
+        margin-bottom: 0;
     }
 
-    .footer__content-block:last-child {
-        margin: 0 auto;
-        text-align: center;
-    }
 
     .footer__content-block a {
         font-size: 13px;
         line-height: 20px;
+    }
+
+    .footer_kop {
+        padding-top: 38px;
+        padding-bottom: 21px;
     }
 
 }
