@@ -1257,11 +1257,15 @@ iframe {
     align-items: center;
 }
 
+.contact__content-social__item a {
+    display: flex;
+}
+
 .contact__content-social__item:last-child {
     margin-bottom: 0;
 }
 
-.contact__content-social__item a {
+.contact__content-social__item span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -2154,7 +2158,7 @@ opacity: 0.8;
         line-height: 65px;
     }
 
-    .contact__content-social__item a {
+    .contact__content-social__item span {
         font-size: 30px;
         line-height: 40px;
     }
@@ -2744,7 +2748,7 @@ opacity: 0.8;
     }
 
 
-    .contact__content-social__item a {
+    .contact__content-social__item span {
         font-size: 15px;
         line-height: 22px;
         margin-left: 18px;
