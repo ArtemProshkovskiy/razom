@@ -1060,11 +1060,12 @@ iframe {
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    letter-spacing: -10px;
+    letter-spacing: -19px;
     height: 542px;
     width: 160px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .phase p {
