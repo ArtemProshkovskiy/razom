@@ -5264,6 +5264,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+        height: 510px;
     }
 
     .roadmap.phone .phase span {
@@ -5271,7 +5272,7 @@ iframe {
         line-height: 27px;
 
         letter-spacing: 0;
-        padding: 100px 0 0 0;
+        padding: 0 0 0 0;
         margin: 0 17px;
     }
 
