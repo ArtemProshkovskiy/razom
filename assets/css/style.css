@@ -1060,8 +1060,8 @@ iframe {
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    letter-spacing: -19px;
-    height: 542px;
+    letter-spacing: -10px;
+    height: 550px;
     width: 160px;
     display: flex;
     align-items: center;
