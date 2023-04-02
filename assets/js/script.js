@@ -87,7 +87,7 @@ languageButton.addEventListener('click', function (e) {
 });
 
 document.addEventListener('click', function (e) {
-    if (e.target !== languageButton && e.target !== document.querySelector('.menu-social__lang-button span')) {
+    if (e.target !== languageButton && e.target !== document.querySelector('.menu-social__lang-button span') && e.target !== document.querySelector('.menu-social__lang-button img')) {
         languagePopup.classList.remove('active');
     }
 });
