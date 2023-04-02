@@ -5273,18 +5273,16 @@ iframe {
     }
 
     .roadmap.phone .phase {
-        padding: 146px 30px 0 30px;
+        padding: 100px 30px 0 30px;
           font-size: 18px;
         line-height: 27px;
-        letter-spacing: -11px;
-         -webkit-letter-spacing: -11px;
+        letter-spacing: 0;
     }
 .roadmap.phone .phase span {
     font-size: 18px;
         line-height: 27px;
 
-        letter-spacing: -11px;
-         -webkit-letter-spacing: -11px;
+        letter-spacing: 0;
 }
     .roadmap__content__block-item div img {
         max-width: 35px;
