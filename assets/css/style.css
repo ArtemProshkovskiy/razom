@@ -1005,7 +1005,6 @@ iframe {
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    letter-spacing: -10px;
     height: 550px;
     width: 160px;
     display: flex;

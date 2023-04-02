@@ -120,7 +120,21 @@ menuBtn.addEventListener('click', () => {
     body.classList.toggle('active');
 });
 
+const phaseEls = document.querySelectorAll('.phase');
 
+phaseEls.forEach(phaseEl => {
+  const text = phaseEl.dataset.text;
+  const divEl = phaseEl.querySelector('div');
+  const spans = [];
+
+  for (let i = 0; i < text.length; i++) {
+    const span = document.createElement('span');
+    span.innerText = text[i];
+    spans.push(span);
+  }
+
+  spans.forEach(span => divEl.appendChild(span));
+});
 const anchors = document.querySelectorAll('a[href^="#"]');
 //Цикл по всем ссылкам
 for (let anchor of anchors) {
