@@ -1065,7 +1065,7 @@ iframe {
     -webkit-letter-spacing: -24px;
     padding-top: 85px;
     padding-left: 57px;
-    padding-right: 57px;
+    margin-right: 57px;
 
 }
 
@@ -3848,7 +3848,7 @@ iframe {
 .phase {
     padding-top: 85px;
     padding-left: 57px;
-    padding-right: 57px;
+    margin-right: 57px;
     display: flex;
 }
 
@@ -5254,11 +5254,11 @@ iframe {
 
     .roadmap.phone .phase_content {
         display: block;
-        padding: 0 17px;
     }
 
     .roadmap.phone .phase {
         padding: 100px 0 0 0;
+        margin: 0 17px;
         font-size: 18px;
         line-height: 27px;
         letter-spacing: 0;
