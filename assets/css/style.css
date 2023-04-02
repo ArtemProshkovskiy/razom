@@ -81,6 +81,7 @@ body {
     background: #220330;
     width: 100%;
     position: fixed;
+    overflow-x: hidden;
 }
 
 .container {
@@ -1061,7 +1062,7 @@ iframe {
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: -24px;
-     -webkit-letter-spacing: -24px;
+    -webkit-letter-spacing: -24px;
     padding-top: 85px;
     padding-left: 57px;
     padding-right: 57px;
@@ -2541,7 +2542,7 @@ iframe {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 12px;
         line-height: 166.5%;
         /* or 22px */
 
@@ -3814,12 +3815,14 @@ iframe {
     border-right: 1px solid #f8f2f9;
     height: 100%;
 }
+
 .phase {
-      padding-top: 85px;
+    padding-top: 85px;
     padding-left: 57px;
     padding-right: 57px;
     display: flex;
 }
+
 .phase span {
     font-family: 'Poppins';
     font-style: normal;
@@ -5241,10 +5244,24 @@ iframe {
         display: block;
     }
 
-    .roadmap.phone .roadmap__content__block {
+    .roadmap.phone .roadmap__content__block-border:first-child .roadmap__content__block {
         background: url("../img/rodemup/1_phone.png") no-repeat;
         margin-top: 50px;
-        width: 270px;
+        width: 295px;
+        height: 100%;
+    }
+
+    .roadmap.phone .roadmap__content__block-border:nth-child(2) .roadmap__content__block {
+        background: url("../img/rodemup/2_phone.png") no-repeat;
+        margin-top: 50px;
+        width: 295px;
+        height: 100%;
+    }
+
+    .roadmap.phone .roadmap__content__block-border:last-child .roadmap__content__block {
+        background: url("../img/rodemup/3_phone.png") no-repeat;
+        margin-top: 50px;
+        width: 295px;
         height: 100%;
     }
 
@@ -5258,18 +5275,19 @@ iframe {
     }
 
     .roadmap.phone .phase {
-        padding: 100px 0 0 30px;
-        margin-right: 30px;
-          font-size: 18px;
+        padding: 100px 17px 0 17px;
+        font-size: 18px;
         line-height: 27px;
         letter-spacing: 0;
     }
-.roadmap.phone .phase span {
-    font-size: 18px;
+
+    .roadmap.phone .phase span {
+        font-size: 18px;
         line-height: 27px;
 
         letter-spacing: 0;
-}
+    }
+
     .roadmap__content__block-item div img {
         max-width: 35px;
         max-height: 35px;
@@ -5332,6 +5350,7 @@ iframe {
         /* текст */
 
         color: #F8F2F9;
+        width: 200%;
     }
 
     .phase p {
@@ -5352,12 +5371,12 @@ iframe {
     .roadmap__content__block-item:first-child span {
         top: 45px;
         width: 100%;
-        left: 162px;
+        left: 165px;
     }
 
     .roadmap__content__block-item:first-child .event {
         top: 65px;
-        left: 162px;
+        left: 165px;
     }
 
     .roadmap__content__block-item.second span {
@@ -5372,12 +5391,12 @@ iframe {
 
 
     .roadmap__content__block-item.three span {
-        left: 162px;
+        left: 177px;
         top: 95px;
     }
 
     .roadmap__content__block-item.three .event {
-        left: 162px;
+        left: 177px;
         top: 115px;
     }
 
@@ -5389,6 +5408,42 @@ iframe {
     .roadmap__content__block-item.four .event {
         left: -98px;
         bottom: -153px;
+    }
+
+
+    .roadmap.phone .roadmap__content__block-border:nth-child(2) .roadmap__content__block-item.second {
+        left: 105px;
+        top: 55px;
+    }
+
+    .roadmap.phone .roadmap__content__block-border:nth-child(2) .roadmap__content__block-item.three {
+        left: -46px;
+        top: 173px;
+    }
+
+    .roadmap.phone .roadmap__content__block-border:nth-child(2) .roadmap__content__block-item.four {
+        left: 105px;
+        top: 285px;
+    }
+
+     .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.first {
+          left: -33px;
+    top: -30px;
+    }
+
+     .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.second {
+            left: 106px;
+    top: 47px;
+    }
+
+    .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.three {
+            left: -43px;
+    top: 166px;
+    }
+
+    .roadmap.phone .roadmap__content__block-border:nth-child(3) .roadmap__content__block-item.four {
+        left: 105px;
+        top: 285px;
     }
 
 
