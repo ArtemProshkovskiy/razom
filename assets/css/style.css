@@ -1063,9 +1063,6 @@ iframe {
     text-orientation: upright;
     letter-spacing: -24px;
     -webkit-letter-spacing: -24px;
-    padding-top: 85px;
-    padding-left: 57px;
-    margin-right: 57px;
 
 }
 
@@ -3846,9 +3843,6 @@ iframe {
 }
 
 .phase {
-    padding-top: 85px;
-    padding-left: 57px;
-    margin-right: 57px;
     display: flex;
 }
 
@@ -3868,6 +3862,9 @@ iframe {
     white-space: nowrap; /* предотвращаем перенос слов */
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
+    padding-top: 85px;
+    padding-left: 57px;
+    margin-right: 57px;
 }
 
 .phase p {
@@ -3881,6 +3878,8 @@ iframe {
 
     color: #F8F2F9;
     margin-top: 55px;
+    padding-left: 57px;
+    margin-right: 57px;
 }
 
 .roadmap__content__block-item span strong {
@@ -5257,11 +5256,14 @@ iframe {
     }
 
     .roadmap.phone .phase {
-        padding: 100px 0 0 0;
-        margin: 0 17px;
         font-size: 18px;
         line-height: 27px;
         letter-spacing: 0;
+
+            width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
     .roadmap.phone .phase span {
@@ -5269,6 +5271,8 @@ iframe {
         line-height: 27px;
 
         letter-spacing: 0;
+        padding: 100px 0 0 0;
+        margin: 0 17px;
     }
 
     .roadmap__content__block-item div img {
@@ -5339,7 +5343,6 @@ iframe {
     .phase p {
         font-size: 18px;
         line-height: 27px;
-        margin-top: 45px;
     }
 
 
